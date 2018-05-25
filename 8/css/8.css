@@ -1,19 +1,18 @@
 *{
 	font-family: 'Segoe UI', sans-serif;
 	text-align: center;
-}
 
+}
+/*верх*/
 .block{
 	width: 1920px;
 	height: 846px;
 	background-color: #1e1e2a;
-	
 	color: white;
 	padding-top: 76px;
 }
 
 .block h1{
-	
 	font-weight: bold;
 	font-size: 80px;
 	line-height: 30px;
@@ -21,48 +20,74 @@
 }
 
 .block p{
-	padding-top: 62px;
+	padding-top: 40px;
 	font-size: 18px;
 	line-height: 30px;
+	padding-left: 752px;
+	padding-right: 752px;
+
 }
 
+/*кнопка*/
+button {
+	background-color: transparent;
+	width: 45px;
+	height: 45px;
+	border-radius: 23px;
+	border: 1px solid #fff;
+	position: relative;
+	color: #fff;
+	margin-top: 165px;
+	
+}
+
+
+button a:after{
+	 content: "";
+	 position: absolute;
+	
+}
+
+/*основное*/
 .content{
 	width: 1920px;
 	height: 1044px;
-	border: 2px solid black;
 	color: #44494e;
-	background-image:   url(../img/#1.png);
-	 background-repeat: no-repeat;
-    
-    
+	
+
 }
+.back{
+	background-image: url(../img/1.png);
+	background-repeat: no-repeat;
+    height: 100%;
 
 
+}
 
 .me {
 	padding-left: 534px;
 	padding-right: 534px;
-	padding-top: 114px;
+	padding-top: 111px;
 	
 }
 
 .me p{
 
-font-size: 30px;
+	font-size: 30px;
 	line-height: 42px;
 	padding-bottom: 46px;
 
 }
 
+/*работы*/
 .work{
 	font-size: 80px;
 	line-height: 36px;
 	font-weight: bold;
-	padding-top: 24px;
+	padding-top:20px;
 
 
 }
-
 
 
 .list ul li{
@@ -73,14 +98,14 @@ font-size: 30px;
 	line-height: 42px;
 	font-weight: bold;
 	text-align: left;
-	
-	
-
 }
+
+
 .about{
 	padding-bottom: 3px;
-	
 }
+
+
 .about ul li{
 	display: inline-block;
 	height: 150px;
@@ -92,21 +117,4 @@ font-size: 30px;
 	text-align: left;
 	margin-right: 10px;
 	color:rgb(136,138,139);
-	
-
-
-}
-button{
-	background-color: transparent;
-	width: 45px;
-	height: 45px;
-	border-radius: 23px;
-	border: 1px solid #fff;
-	position: relative;
-	color: #fff;
-	margin-top: 184px;
-	
-}
-
-
 }

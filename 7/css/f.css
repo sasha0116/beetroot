@@ -35,7 +35,6 @@ font-weight: 400;
  font-size: 109px;
 font-family: 'Playfair Display', "sans-serif";
 color:black;
-line-height: 1;
 float:left;
 padding-right: 2%;
 
@@ -55,7 +54,7 @@ padding-right: 2%;
 
 }
 	
-.end{
+blockquote{
 
 	font-size: 30px;
 	font-family: 'Lato', sans-serif;

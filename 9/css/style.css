@@ -1,0 +1,188 @@
+
+*{ font-family: 'Roboto', 'Raleway',sans-serif;
+	margin: 0;
+	padding: 0;
+
+}
+body{
+    background: #eee;
+    color: #303030;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+.conteiner{
+    width: 80%;
+    margin: 0 10%;
+    border: 2px solid black;
+}
+
+.head{
+	border: 2px solid black;
+}
+.head h1{
+	display: inline-block;
+    font-family: 'Roboto';
+    color: #303030;
+    font-size: 48px;
+    font-weight: 900;
+    padding-right: 45%;
+
+}
+
+.head ul{
+	display: inline-block;
+	border: 2px solid black;
+}
+
+.head ul li {
+	display: inline-block;
+	padding: 0 20px;
+
+
+   
+    
+
+}
+
+.head ul li a{
+	text-decoration: none;
+	font-family: 'Roboto';
+    font-size: 18px;
+    
+	color: rgb(48,48,48);
+    font-weight: 300;
+    color: #303030;
+
+}
+
+/*первое*/
+.slide{
+	display: inline-block;
+	border: 2px solid black;
+
+}
+.proj{
+	width: 50%;
+	
+	text-align: right;
+	float: left;
+}
+
+.proj h1{
+	font-family: "Raleway";
+	color: #303030;
+	font-weight: 900;
+	font-size: 150px;
+	margin: 10% 0 0 0;
+	line-height: 1;
+
+}
+
+.proj p{
+	font-size: 24px;
+	letter-spacing: 1px;
+	line-height: 36px;
+	color: rgb(48,48,48);
+	font-family: "Roboto";
+	font-weight: 300;
+	margin: 2% 0 0 2%;
+}
+
+.proj a{
+	font-size: 24px;
+    letter-spacing: 1px;
+    line-height: 36px;
+    font-family: 'Roboto',Arial,sans-serif;
+    font-weight: bold;
+    color: rgb(225,0,17);
+    text-decoration: none;
+}
+
+.slide .imag{
+	
+	float: right;
+	width: 42%;
+	padding-top: 5%;
+	padding-left: 7%;
+    
+ }
+
+ .coll{
+ 	text-align: center;
+ 	border:2px solid black;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	display: inline-block;
+	background: white;
+ }
+
+
+ .coll h1{
+	font-size: 48px;
+	letter-spacing: 0.7px;
+	color: rgb(48,48,48);
+	font-family: "Raleway";
+	font-weight: 900;
+	
+}
+
+.coll p{
+	width: 50%;
+	padding-left:25%;
+font-size: 18px;
+letter-spacing: 0px;
+line-height: 24px;
+color: rgb(48,48,48);
+font-family: "Raleway";
+padding-bottom: 5%;
+
+}
+
+
+
+.picture{
+display: inline-block;
+border: 2px solid black;
+width: 90%;
+}
+
+.col img{
+	width: 66%;
+	
+	border-radius: 5px;
+	float: left;
+
+}
+
+.muz img{
+	width: 31%;
+	
+	border-radius: 5px;
+	float: right;
+}
+
+.design img{
+	width: 35%;
+	padding-top: 3%;
+	border-radius: 5px;
+	
+	
+
+}
+
+.boots img{
+	width: 35%;
+	padding-top: 3%;
+	border-radius: 5px;
+	
+}
+
+
+.tabl img{
+	width: 35%;
+	padding-right: 0;
+	padding-top: 3%;
+	border-radius: 5px;
+}
+

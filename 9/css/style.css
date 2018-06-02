@@ -106,7 +106,7 @@ body{
 	padding-left: 7%;
     
  }
-
+ 
  .coll{
  	text-align: center;
  	border:2px solid black;
@@ -147,32 +147,35 @@ border: 2px solid black;
 width: 90%;
 }
 
+/*картинки*/
+
 .col img{
 	width: 66%;
 	
 	border-radius: 5px;
-	float: left;
+	padding-right: 50%;
 
 }
 
 .muz img{
 	width: 31%;
 	
+    
 	border-radius: 5px;
-	float: right;
+	;
 }
 
 .design img{
-	width: 35%;
+	width: 31%;
 	padding-top: 3%;
+
 	border-radius: 5px;
-	
 	
 
 }
 
 .boots img{
-	width: 35%;
+	width: 31%;
 	padding-top: 3%;
 	border-radius: 5px;
 	
@@ -180,9 +183,9 @@ width: 90%;
 
 
 .tabl img{
-	width: 35%;
-	padding-right: 0;
+	width: 31%;
 	padding-top: 3%;
 	border-radius: 5px;
+
 }
 

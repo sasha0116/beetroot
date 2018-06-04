@@ -9,7 +9,7 @@ body{
 }	
 
 .forma{
-	width: 28%;
+	
 	background-color: #ffffff;
 	margin-left: 34%;
 	margin-top: 10%;
@@ -63,11 +63,11 @@ input:focus{
 }
 
 .small{
-	width: 43.2%;
+	width: 43.5%;
 }
  
 .small:nth-child(2){
-	margin-left: 3%;
+	float: right;
 } 
 
 
